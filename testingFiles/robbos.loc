@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<loc version="1.0" src="Groundspeak">
+    <waypoint>
+        <name id="GC2TGF2"><![CDATA[Robbo’s Revenge 16 by CANARYGAL]]>
+        </name>
+        <coord lat="52.8059" lon="1.370233"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGF2</link>
+        <difficulty>1.5</difficulty>
+        <terrain>2</terrain>
+        <container>2</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TGEC"><![CDATA[Robbo’s Revenge 15 by CANARYGAL]]>
+        </name>
+        <coord lat="52.80645" lon="1.36745"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGEC</link>
+        <difficulty>1</difficulty>
+        <terrain>2</terrain>
+        <container>8</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TGE9"><![CDATA[Robbo’s Revenge 14 by CANARYGAL]]>
+        </name>
+        <coord lat="52.808233" lon="1.3603"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGE9</link>
+        <difficulty>4</difficulty>
+        <terrain>2</terrain>
+        <container>6</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TGE2"><![CDATA[Robbo’s Revenge 13 by CANARYGAL]]>
+        </name>
+        <coord lat="52.809483" lon="1.356233"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGE2</link>
+        <difficulty>1.5</difficulty>
+        <terrain>2</terrain>
+        <container>8</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TGDZ"><![CDATA[Robbo’s Revenge 12 by CANARYGAL]]>
+        </name>
+        <coord lat="52.8087" lon="1.3429"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGDZ</link>
+        <difficulty>3.5</difficulty>
+        <terrain>2</terrain>
+        <container>6</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TGDG"><![CDATA[Robbo’s Revenge 11 by CANARYGAL]]>
+        </name>
+        <coord lat="52.8076" lon="1.338817"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGDG</link>
+        <difficulty>2</difficulty>
+        <terrain>1.5</terrain>
+        <container>6</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TGD8"><![CDATA[Robbo’s Revenge 10 by CANARYGAL]]>
+        </name>
+        <coord lat="52.803417" lon="1.340033"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGD8</link>
+        <difficulty>1</difficulty>
+        <terrain>1.5</terrain>
+        <container>2</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TGD2"><![CDATA[Robbo’s Revenge 9 by CANARYGAL]]>
+        </name>
+        <coord lat="52.8026" lon="1.344333"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGD2</link>
+        <difficulty>2</difficulty>
+        <terrain>2</terrain>
+        <container>2</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TGCV"><![CDATA[Robbo’s Revenge 8 by CANARYGAL]]>
+        </name>
+        <coord lat="52.79985" lon="1.348233"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGCV</link>
+        <difficulty>1.5</difficulty>
+        <terrain>2</terrain>
+        <container>8</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TGCR"><![CDATA[Robbo’s Revenge 7 by CANARYGAL]]>
+        </name>
+        <coord lat="52.79705" lon="1.348467"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGCR</link>
+        <difficulty>2</difficulty>
+        <terrain>2</terrain>
+        <container>6</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TGCH"><![CDATA[Robbo’s Revenge 6 by CANARYGAL]]>
+        </name>
+        <coord lat="52.795767" lon="1.35845"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGCH</link>
+        <difficulty>1</difficulty>
+        <terrain>2</terrain>
+        <container>8</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TGBM"><![CDATA[Robbo’s Revenge 5 by CANARYGAL]]>
+        </name>
+        <coord lat="52.797533" lon="1.362733"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGBM</link>
+        <difficulty>1</difficulty>
+        <terrain>2</terrain>
+        <container>6</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TGB7"><![CDATA[Robbo’s Revenge 4 by CANARYGAL]]>
+        </name>
+        <coord lat="52.800367" lon="1.365383"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGB7</link>
+        <difficulty>1.5</difficulty>
+        <terrain>2</terrain>
+        <container>2</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TGAV"><![CDATA[Robbo’s Revenge 3 by CANARYGAL]]>
+        </name>
+        <coord lat="52.803133" lon="1.368033"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGAV</link>
+        <difficulty>1.5</difficulty>
+        <terrain>2</terrain>
+        <container>2</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TGA9"><![CDATA[Robbo’s Revenge 2 by CANARYGAL]]>
+        </name>
+        <coord lat="52.8045" lon="1.3727"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TGA9</link>
+        <difficulty>1.5</difficulty>
+        <terrain>1.5</terrain>
+        <container>1</container>
+    </waypoint>
+    <waypoint>
+        <name id="GC2TG9V"><![CDATA[Robbo’s Revenge 1 by CANARYGAL]]>
+        </name>
+        <coord lat="52.8078" lon="1.373083"/>
+        <type>Geocache</type>
+        <link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TG9V</link>
+        <difficulty>1.5</difficulty>
+        <terrain>2</terrain>
+        <container>2</container>
+    </waypoint>
+</loc>
