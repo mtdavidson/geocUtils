@@ -4,7 +4,7 @@ import sys
 import os
 
 workingWaypointList = {};
-visitedWaypoints = [];
+visitedWaypoints = {};
 
 import math
 
@@ -50,18 +50,35 @@ def readLocFile(locFilePath):
         lat = waypoint.xpathEval('coord/@lat')[0].content;
         lon = waypoint.xpathEval('coord/@lon')[0].content;
         waypointList[gcCode] = {
-            'lat': lat,
-            'lon': lon
+            'lat': float(lat),
+            'lon': float(lon)
         };
         
     return waypointList;
 
 def getNextNotVisited(waypoint, workingWaypointList):
-    visitedWaypoints.append(waypoint[0]);
+    #visitedWaypoints[waypoint[0]] = {};
 
+    closestPoint = [];
     if (len(workingWaypointList) > 0):
         #TODO: Actually calculate the closest waypoint.
-        item = workingWaypointList.popitem();
+        for k, v in workingWaypointList.iteritems():
+            distance = distance_on_unit_sphere( 
+                waypoint[1]['lat'], 
+                waypoint[1]['lon'], 
+                v['lat'],
+                v['lon']
+                );
+            if len(closestPoint) == 0:
+                closestPoint = [k, distance];
+            else:
+                if (distance < closestPoint[1]):
+                    closestPoint = [k, distance];
+
+        item = [closestPoint[0], workingWaypointList.pop(closestPoint[0])];
+        visitedWaypoints[closestPoint[0]] = {'distance': distance};
+        print visitedWaypoints[closestPoint[0]];
+ 
         getNextNotVisited(item, workingWaypointList);
 
 def getRoute(waypoints):
@@ -70,18 +87,9 @@ def getRoute(waypoints):
     print 'Getting Route';
     item = workingWaypointList.popitem();
     getNextNotVisited(item, workingWaypointList);
+    print visitedWaypoints;
+    print len(visitedWaypoints);
 
-def calcDistance(visitedWaypoints, waypoints):
-    wl = len(visitedWaypoints);
-    for x in range(wl):
-        currentWaypoint = waypoints.get(visitedWaypoints[x]);
-        print currentWaypoint;
-        for z in range(wl - x):
-            workingWaypoint = waypoints.get(visitedWaypoints[z]);
-            print " - " + visitedWaypoints[z] + ": " + \
-                  str(workingWaypoint) + \
-                  str(distance_on_unit_sphere(float(currentWaypoint['lat']), float(currentWaypoint['lon']), float(workingWaypoint['lat']), float(workingWaypoint['lon'])));
-    
 sys.argv = ['route-distance.py', 'testingFiles/robbos.loc'];
 
 if not os.path.exists(sys.argv[1]):
@@ -95,4 +103,4 @@ if __name__ == "__main__":
     print len(waypoints);
 
     getRoute(waypoints);
-    calcDistance(visitedWaypoints, waypoints);
+    print 'Finish';
