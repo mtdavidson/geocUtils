@@ -57,8 +57,6 @@ def readLocFile(locFilePath):
     return waypointList;
 
 def getNextNotVisited(waypoint, workingWaypointList):
-    #visitedWaypoints[waypoint[0]] = {};
-
     closestPoint = [];
     if (len(workingWaypointList) > 0):
         #TODO: Actually calculate the closest waypoint.
@@ -77,17 +75,18 @@ def getNextNotVisited(waypoint, workingWaypointList):
 
         item = [closestPoint[0], workingWaypointList.pop(closestPoint[0])];
         visitedWaypoints[closestPoint[0]] = {'distance': distance};
-        #print visitedWaypoints[closestPoint[0]];
  
         getNextNotVisited(item, workingWaypointList);
 
 def getRoute(waypoints):
     workingWaypointList = waypoints.copy();
     
-    print 'Getting Route';
+    #print 'Getting Route';
     item = workingWaypointList.popitem();
+    visitedWaypoints[item[0]] = {'distance': 0};
     getNextNotVisited(item, workingWaypointList);
-    print "Distance: ", (sum([i['distance'] for i in visitedWaypoints.values()]) * 3960);
+    print visitedWaypoints.keys();
+    print "Distance: %.2fmi" % (sum([i['distance'] for i in visitedWaypoints.values()]) * 3960);
 
 sys.argv = ['route-distance.py', 'testingFiles/robbos.loc'];
 
@@ -100,4 +99,3 @@ if __name__ == "__main__":
     waypoints = readLocFile(locFilePath);
 
     getRoute(waypoints);
-    print 'Finish';
