@@ -59,7 +59,6 @@ def readLocFile(locFilePath):
 def getNextNotVisited(waypoint, workingWaypointList):
     closestPoint = [];
     if (len(workingWaypointList) > 0):
-        #TODO: Actually calculate the closest waypoint.
         for k, v in workingWaypointList.iteritems():
             distance = distance_on_unit_sphere( 
                 waypoint[1]['lat'], 
@@ -81,14 +80,13 @@ def getNextNotVisited(waypoint, workingWaypointList):
 def getRoute(waypoints):
     workingWaypointList = waypoints.copy();
     
-    #print 'Getting Route';
     item = workingWaypointList.popitem();
     visitedWaypoints[item[0]] = {'distance': 0};
     getNextNotVisited(item, workingWaypointList);
     print visitedWaypoints.keys();
     print "Distance: %.2fmi" % (sum([i['distance'] for i in visitedWaypoints.values()]) * 3960);
 
-sys.argv = ['route-distance.py', 'testingFiles/robbos.loc'];
+sys.argv = ['route-distance.py', 'testingFiles/TurkeyNuggets.loc'];
 
 if not os.path.exists(sys.argv[1]):
     sys.exit('File specified not valid');

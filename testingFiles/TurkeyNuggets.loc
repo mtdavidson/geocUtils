@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<loc version="1.0" src="Groundspeak">
+<waypoint>
+	<name id="GC1GZF5"><![CDATA[Monkeyaid: The Hut by Noenum Pax]]>
+</name>
+<coord lat="52.712433" lon="1.22685"/>
+<type>Geocache</type>
+<link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC1GZF5</link>
+<difficulty>1.5</difficulty>
+<terrain>2</terrain>
+<container>8</container>
+</waypoint>
+<waypoint>
+	<name id="GC2TZCR"><![CDATA[Horsford Heath 5:  A Stone's Throw Take II by TurkeyNuggets]]>
+</name>
+<coord lat="52.71625" lon="1.240783"/>
+<type>Geocache</type>
+<link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TZCR</link>
+<difficulty>2</difficulty>
+<terrain>2.5</terrain>
+<container>2</container>
+</waypoint><waypoint>
+	<name id="GC2TZC8"><![CDATA[Horsford Heath 4:  Pine Cone Pond by TurkeyNuggets]]>
+</name>
+<coord lat="52.717467" lon="1.239767"/>
+<type>Geocache</type>
+<link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2TZC8</link>
+<difficulty>2</difficulty>
+<terrain>2.5</terrain>
+<container>8</container>
+</waypoint><waypoint>
+	<name id="GC2NQPH"><![CDATA[Horsford Heath 1:  Strange Looking Pigeons by TurkeyNuggets]]>
+</name>
+<coord lat="52.7146" lon="1.231933"/>
+<type>Geocache</type>
+<link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2NQPH</link>
+<difficulty>3</difficulty>
+<terrain>2</terrain>
+<container>2</container>
+</waypoint><waypoint>
+	<name id="GC2MQGA"><![CDATA[Horsford Heath 6:  In Range of the Range by TurkeyNuggets]]>
+</name>
+<coord lat="52.713783" lon="1.235683"/>
+<type>Geocache</type>
+<link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2MQGA</link>
+<difficulty>2</difficulty>
+<terrain>2</terrain>
+<container>2</container>
+</waypoint><waypoint>
+	<name id="GC2MQFX"><![CDATA[Horsford Heath 3:  Sacred Spot by TurkeyNuggets]]>
+</name>
+<coord lat="52.716783" lon="1.237267"/>
+<type>Geocache</type>
+<link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2MQFX</link>
+<difficulty>4</difficulty>
+<terrain>2</terrain>
+<container>2</container>
+</waypoint><waypoint>
+	<name id="GC2MQF8"><![CDATA[Horsford Heath 2:  Lady of the Woods by TurkeyNuggets]]>
+</name>
+<coord lat="52.715883" lon="1.234233"/>
+<type>Geocache</type>
+<link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GC2MQF8</link>
+<difficulty>3.5</difficulty>
+<terrain>2.5</terrain>
+<container>2</container>
+</waypoint>
+<waypoint>
+	<name id="GCR555"><![CDATA[The Pits by Carrot Crunchers]]>
+</name>
+<coord lat="52.709833" lon="1.258533"/>
+<type>Geocache</type>
+<link text="Cache Details">http://www.geocaching.com/seek/cache_details.aspx?wp=GCR555</link>
+<difficulty>1.5</difficulty>
+<terrain>2</terrain>
+<container>3</container>
+</waypoint>
+</loc>
