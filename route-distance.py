@@ -77,7 +77,7 @@ def getNextNotVisited(waypoint, workingWaypointList):
 
         item = [closestPoint[0], workingWaypointList.pop(closestPoint[0])];
         visitedWaypoints[closestPoint[0]] = {'distance': distance};
-        print visitedWaypoints[closestPoint[0]];
+        #print visitedWaypoints[closestPoint[0]];
  
         getNextNotVisited(item, workingWaypointList);
 
@@ -87,8 +87,7 @@ def getRoute(waypoints):
     print 'Getting Route';
     item = workingWaypointList.popitem();
     getNextNotVisited(item, workingWaypointList);
-    print visitedWaypoints;
-    print len(visitedWaypoints);
+    print "Distance: ", (sum([i['distance'] for i in visitedWaypoints.values()]) * 3960);
 
 sys.argv = ['route-distance.py', 'testingFiles/robbos.loc'];
 
@@ -99,8 +98,6 @@ locFilePath = sys.argv[1];
 
 if __name__ == "__main__":
     waypoints = readLocFile(locFilePath);
-    print waypoints;
-    print len(waypoints);
 
     getRoute(waypoints);
     print 'Finish';
